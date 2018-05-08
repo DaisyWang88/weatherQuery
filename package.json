@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/g8up/youDaoDict.git"
+    "url": "https://github.com/DaisyWang88/weatherQuery.git"
   },
   "keywords": [
     "城市天气查询"
@@ -18,9 +18,9 @@
   "author": "daisy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/g8up/youDaoDict/issues"
+    "url": "https://github.com/DaisyWang88/weatherQuery/issues"
   },
-  "homepage": "https://github.com/g8up/youDaoDict",
+  "homepage": "https://github.com/DaisyWang88/weatherQuery",
   "devDependencies": {
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",

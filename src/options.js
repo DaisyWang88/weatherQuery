@@ -261,26 +261,4 @@ window.onload = () => {
 	document.getElementById("querybutton").onclick = (event) => {
 		weatherQuery(document.querySelector("#city").value.trim() || '北京');
   };
-
-  //弹出摘抄面板
-  // document.getElementById("note_pop").onclick = () => {
-  //   popPanel();
-  // }
-  // //导出笔记
-  // document.querySelector('#export').onclick = () => {
-  //   exportHistory();
-  // };
-
-	// document.body.addEventListener('click', (e)=> {
-  //   alert(1);
-	// 	let target = e.target;
-	// 	let toggle = target.dataset.toggle;
-	// 	if( toggle === 'play'){
-	// 		playAudio(_word);
-	// 	}else if( toggle === 'addToNote') {
-	// 		addToNote( _word, ()=>{
-	// 			target.classList.add('green')
-	// 		});
-	// 	}
-	// });
 };
