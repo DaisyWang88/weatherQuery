@@ -261,4 +261,8 @@ window.onload = () => {
 	document.getElementById("querybutton").onclick = (event) => {
 		weatherQuery(document.querySelector("#city").value.trim() || '北京');
   };
+  //点击suggestion
+	// document.getElementsByClass("list-item").onclick = (event) => {
+	// 	weatherQuery(document.querySelector("#city").value.trim() || '北京');
+  // };
 };
