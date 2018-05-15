@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"version": "3.2.4.1",
+	"version": "1.0.0",
 	"name": "城市天气查询",
 	"short_name": "城市天气查询",
 	"description": "可查询城市天气，并保存查询历史记录",
