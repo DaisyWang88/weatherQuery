@@ -10,9 +10,17 @@ chrome插件——城市天气查询
 - 根据城市名称查询天气：http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getWeatherbyCityName
 
 功能：
-- 自动获取当前所在城市的天气
+- 在浏览器打开之后自动获取当前所在城市,并查询当前所在城市天气
 - 根据城市名称查询天气
-- 记录最近所查城市，并给出suggestion
+- 记录最近所查城市历史记录，并给出suggestion，单击suggestion查询所点击城市
+
+界面图片：
+
+！[panel](image/wq.jpeg)
+
+历史查询记录：
+
+！[history](image/wq.png)
 
 
 
