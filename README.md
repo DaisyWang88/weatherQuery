@@ -16,11 +16,11 @@ chrome插件——城市天气查询
 
 界面图片：
 
-![panel](image/wq.jpeg)
+![panel](image/wq.jpg)
 
 历史查询记录：
 
-![history](image/wq.png)
+![history](image/history.jpg)
 
 
 
