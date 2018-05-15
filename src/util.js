@@ -1,7 +1,7 @@
 import Setting from './util/setting';
 const setting = new Setting();
 
-const _city = '';
+let _city = '';
 /**
  * JSON 转 queryString
  * @param  {JSON} params [description]
@@ -106,7 +106,6 @@ export const getCurrentCity = () =>{
 //天气查询
 export const weatherQuery = (city) =>{
   _city = city;
-  let city = city.trim();
   post({
     url: 'http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getWeatherbyCityName',
     dataType: 'xml',
@@ -311,24 +310,26 @@ function translateXML(xmlnode) {
 function saveSearchCitys() {
   let cache = localStorage.getItem('citys');
   if(cache) {
-    if(cashe.indexOf(_city)){
+    if(cache.indexOf(_city) > -1){
       return;
     }
-    let citys = [_city, cache].join();
-    localStorage.setItem('citys', citys.split(','));
+    cache = [_city, cache].join();
+  } else {
+    cache = _city;
   }
+  localStorage.setItem('citys', cache);
 }
-function getSearchCitys() {
-  let citys = localStorage.getItem();
+export const getSearchCitys = () => {
+  let citys = localStorage.getItem('citys').split(',');
   let suggestion = document.getElementById('suggestion');
-  suggestion.innerHTML = `<ul>${
+  suggestion.innerHTML = `<ul class="list-container">${
     citys.map((item, index) =>{
-      return <li class="list-item" onclick="getCity()">${item}</li>
-    })
+      return `<li class="list-item">${item}</li>`
+    }).join("\n")
   }</ul>`;
 }
-function getCity(event) {
-  let city = event.currentTarget.innerText;
-  document.getElementById('city').value = city;
+export const getCity = (item) => {
+  // let city = event.currentTarget.innerText;
+  document.getElementById('city').value = item;
 }
 
