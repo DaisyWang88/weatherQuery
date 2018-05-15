@@ -3,7 +3,7 @@
 	"version": "3.2.4.1",
 	"name": "城市天气查询",
 	"short_name": "城市天气查询",
-	"description": "可根据城市查询天气",
+	"description": "可查询城市天气，并保存查询历史记录",
 	"icons": {
 		"128": "image/icon.png",
 		"64": "image/icon.png",

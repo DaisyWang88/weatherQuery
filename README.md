@@ -10,6 +10,7 @@ chrome插件——城市天气查询
 - 选择clone下来的代码库的dist文件
 
 2. 通过下载.crx插件
+- 访问chrome://extensions页面，将weather-query.crx拖入页面即可
 
 
 > PS: 第一个练手chrome插件 >.<, 找的一个webxml的免费接口, 因为是免费的所以接口有访问次数限制，和频次限制，见谅>.<~~~
