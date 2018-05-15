@@ -4,12 +4,15 @@ chrome插件——城市天气查询
 
 1.通过clone 源码
 - clone 代码库
-- 从右上角菜单->更多工具->扩展程序可以进入 插件管理页面，也可以直接在地址栏输入 chrome://extensions 访问。
+- 在项目根目录 输入命令行
+```npm insatll```
+```npm run dev``` 会生成一个dist文件
+- 从右上角菜单->更多工具->扩展程序可以进入插件管理页面，也可以直接在地址栏输入 chrome://extensions 访问。
 - 打开右上角"开发者模式"
 - 点击"加载已解压的程序"
-- 选择clone下来的代码库的dist文件
+- 选择dist文件
 
-2. 通过下载.crx插件
+2. 通过加载.crx插件
 - 访问chrome://extensions页面，将weather-query.crx拖入页面即可
 
 
