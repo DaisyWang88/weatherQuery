@@ -39,9 +39,6 @@ chrome插件——城市天气查询
 ![history](image/history.jpeg)
 
 
-打赏：
-
-![](image/QRCode.jpeg)
 
 
 
