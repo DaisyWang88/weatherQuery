@@ -127,6 +127,7 @@ export const weatherQuery = (city) =>{
 
 function getIcon(weather){
   let desc = weather && weather.split('转')[0].trim();
+  alert(desc)
   let weatherPic;
   if(desc){
     switch(desc){
@@ -146,7 +147,13 @@ function getIcon(weather){
       case '小雨':
         weatherPic = 'xiaoyu';
         break;
+      case '小到中雨':
+        weatherPic = 'xiaoyu';
+        break;
       case '中雨':
+        weatherPic = 'zhongyu';
+        break;
+      case '中到大雨':
         weatherPic = 'zhongyu';
         break;
       case '大雨':
