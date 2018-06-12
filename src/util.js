@@ -127,7 +127,6 @@ export const weatherQuery = (city) =>{
 
 function getIcon(weather){
   let desc = weather && weather.split('转')[0].trim();
-  alert(desc)
   let weatherPic;
   if(desc){
     switch(desc){
