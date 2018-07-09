@@ -1,6 +1,6 @@
 {
   "name": "weather-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "可记录、查询城市天气",
   "scripts": {
     "dev": "gulp dev",
